@@ -16,7 +16,7 @@
       "dom"
     ],
     "paths": {
-      "@playground/*": [
+      "@app/*": [
         "libs/*"
       ]
     },

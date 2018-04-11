@@ -1,14 +1,14 @@
 {
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
-    "name": "playground",
-    "npmScope": "playground",
+    "name": "app",
+    "npmScope": "app",
     "latestMigration": "20180405-add-workspace-schematic-command"
   },
   "apps": [
     {
-      "root": "apps\\playground\\src",
-      "outDir": "dist\\apps\\playground",
+      "root": "apps\\app\\src",
+      "outDir": "dist\\apps\\app",
       "assets": [
         "assets",
         "favicon.ico"
@@ -29,7 +29,14 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
-      "name": "playground",
+      "name": "app",
+      "tags": []
+    },
+    {
+      "name": "dashboard",
+      "root": "libs/dashboard/src",
+      "test": "../../../test.js",
+      "appRoot": "",
       "tags": []
     }
   ],
@@ -40,7 +47,7 @@
   },
   "lint": [
     {
-      "project": "apps\\playground\\src/tsconfig.app.json",
+      "project": "apps\\app\\src/tsconfig.app.json",
       "exclude": "**/node_modules/**"
     },
     {
@@ -48,7 +55,7 @@
       "exclude": "**/node_modules/**"
     },
     {
-      "project": "apps\\playground\\e2e\\tsconfig.e2e.json",
+      "project": "apps\\app\\e2e\\tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
     }
   ],
