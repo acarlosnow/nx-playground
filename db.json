@@ -8,5 +8,13 @@
       "id": "2",
       "title": "Deal 2"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "firstName": "Jon",
+      "lastName": "Consumer"
+    }
   ]
 }
