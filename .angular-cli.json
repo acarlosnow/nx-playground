@@ -38,6 +38,13 @@
       "test": "../../../test.js",
       "appRoot": "",
       "tags": []
+    },
+    {
+      "name": "deals",
+      "root": "libs/deals/src",
+      "test": "../../../test.js",
+      "appRoot": "",
+      "tags": []
     }
   ],
   "e2e": {
