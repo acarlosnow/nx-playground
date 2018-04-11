@@ -8,7 +8,8 @@ export const dashboardRoutes: Route[] = [
     children: [
       {
         path: ':dashboardId',
-        loadChildren: './dashboard-view/dashboard-view.module#DashboardViewModule',
+        loadChildren:
+          './dashboard-view/dashboard-view.module#DashboardViewModule',
         pathMatch: 'full'
       }
       // {
