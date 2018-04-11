@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { DashboardViewComponent } from './containers/dashboard-view/dashboard-view.component';
 import { RouterModule, Route } from '@angular/router';
+import { LayoutModule } from '@app/layout';
 
 const dashboardViewRoutes: Route[] = [
   {
@@ -14,7 +15,11 @@ const dashboardViewRoutes: Route[] = [
 ];
 
 @NgModule({
-  imports: [CommonModule, RouterModule.forChild(dashboardViewRoutes)],
+  imports: [
+    CommonModule,
+    LayoutModule,
+    RouterModule.forChild(dashboardViewRoutes)
+  ],
   declarations: [DashboardViewComponent]
 })
 export class DashboardViewModule {}

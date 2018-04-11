@@ -48,6 +48,13 @@
       "test": "../../../test.js",
       "appRoot": "",
       "tags": []
+    },
+    {
+      "name": "layout",
+      "root": "libs/layout/src",
+      "test": "../../../test.js",
+      "appRoot": "",
+      "tags": []
     }
   ],
   "e2e": {
