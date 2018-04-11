@@ -11,11 +11,12 @@ export const dashboardRoutes: Route[] = [
         loadChildren:
           './dashboard-view/dashboard-view.module#DashboardViewModule',
         pathMatch: 'full'
+      },
+      {
+        path: ':dashboardId/edit',
+        loadChildren:
+          './dashboard-view/dashboard-view.module#DashboardViewModule',
       }
-      // {
-      //   path: ':dashboardId/edit',
-      //   loadChildren: './'
-      // }
     ]
   }
 ];
