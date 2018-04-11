@@ -1,1 +1,1 @@
-export { DealsModule, dealsRoutes } from './src/deals.module';
+export { DealsModule } from './src/deals.module';

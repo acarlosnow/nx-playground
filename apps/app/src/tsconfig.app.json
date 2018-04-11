@@ -10,7 +10,7 @@
   ],
   "include": [
     "**/*.ts",
-    "../../../libs/dashboard/compile.ts",
-    "../../../libs/deals/compile.ts"
+    "../../../libs/dashboard/lazy.ts",
+    "../../../libs/deals/lazy.ts"
   ]
 }
