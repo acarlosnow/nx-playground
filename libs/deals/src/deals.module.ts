@@ -6,6 +6,10 @@ export const dealsRoutes: Route[] = [
   {
     path: 'retail-deal',
     loadChildren: './retail-deal/retail-deal.module#RetailDealModule'
+  },
+  {
+    path: 'desking',
+    loadChildren: './desking/desking.module#DeskingModule'
   }
 ];
 
